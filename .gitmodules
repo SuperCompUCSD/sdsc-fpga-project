@@ -1,0 +1,3 @@
+[submodule "7-seg-ncurses"]
+	path = 7-seg-ncurses
+	url = https://github.com/anishg24/7-seg-ncurses
