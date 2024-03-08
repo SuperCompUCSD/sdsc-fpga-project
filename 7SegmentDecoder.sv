@@ -3,7 +3,7 @@ module SevenSegmentDecoder #(parameter WIDTH = 4) (
     output reg [6:0] c
 );
 
-always @* begin
+always_comb begin
     case(b)
         4'h0: c = 7'b1000000; // 0
         4'h1: c = 7'b1111001; // 1
